@@ -13,9 +13,9 @@
   "docker_api": true,
   "host_network": true,
   "host_pid": true,
-  "apparmor": false,
+  "apparmor": true,
   "map": ["config:rw","ssl:rw","addons:rw","backup:rw","share:rw"],
-  "full_access" : true,
+  "full_access" : false,
   "options": {
     "custom_conf": {
       "enabled": false,
